@@ -1,39 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 body{
+    background-color: #d9e4ec;
+}
+
+.content{
+    display: flex;
+    justify-content: center;  
+}
+
+h1{
+    font: larger;
+    color: #d9e1ea;
+    font-display: bold;   
+}
+
+header{
+    height: 70px;
+    background-color: #385E72;
     display: flex;
     justify-content: center;
-   
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
 }
+
 #box{
     display: inline-block;
     width: 200px;
-    height: 550px;
+    height: 565px;
     background-color: black;
-   
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align:center;
+    color: rgb(16, 16, 57);
+    font-size: 1.5rem ;
 }
 
-#c1{
+.boxes:hover{
+    border: 5px solid #d9e1ea;
+    text-transform: lowercase;
+}
+
+.redLight{
     width: 155px;
     height: 155px;
     background-color: red;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 20px;  
 }
 
-#c2{
+.yellowLight{
     width: 155px;
     height: 155px;
-    background-color: yellow;
+    background-color: #e7b416;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 20px;
 }
 
-#c3{
+.greenLight{
     width: 155px;
     height: 155px;
     background-color: green;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 20px;
+}
+
+footer{
+    background-color: #385E72;
+    color: #d9e1ea;
+    text-align: center;
+    height: 40px;
+    margin-top: 15px;
 }
