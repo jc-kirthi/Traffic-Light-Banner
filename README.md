@@ -1,4 +1,4 @@
-# Check out the code to try it!
+# Check out the code, to try it!
 
 This project demonstrates to build a traffic light signal using HTML and CSS.
 
