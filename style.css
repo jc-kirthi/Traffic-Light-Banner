@@ -76,6 +76,9 @@ footer{
     background-color: #385E72;
     color: #d9e1ea;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    algin-items: center;
     height: 40px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
